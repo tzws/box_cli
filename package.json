@@ -11,6 +11,10 @@
   "bin": {
     "box_cli": "./bin/cli.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akq/box_cli.git"
+  },
   "dependencies": {
     "glob": "^7.1.2",
     "html-minifier": "latest",
@@ -18,4 +22,5 @@
     "uglify-js": "^3.4.7",
     "optimist": "^0.6.1"
   }
+  
 }
