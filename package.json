@@ -1,0 +1,21 @@
+{
+  "name": "box_cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "bin": {
+    "box_cli": "./bin/cli.js"
+  },
+  "dependencies": {
+    "glob": "^7.1.2",
+    "html-minifier": "latest",
+    "dont": "git+ssh://git@github.com:akq/donT.git",
+    "uglify-js": "^3.4.7",
+    "optimist": "^0.6.1"
+  }
+}
