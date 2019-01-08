@@ -113,7 +113,7 @@ var walkSync = function (dir, filelist) {
         if (fs.statSync(filepath).isDirectory()) {
             filelist = walkSync(dir + file + '/', filelist);
         } else {
-            var base = filepath.substr(root.length + 1).split(path.sep).join('.')
+            var base = filepath.substr(root.length + 1).split('/').join('.')
                 , parts = base.split('.')
                 , ext = parts.pop()
                 ;
