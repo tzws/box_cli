@@ -18,7 +18,7 @@
   "dependencies": {
     "glob": "^7.1.2",
     "html-minifier": "latest",
-    "dont": "git+ssh://git@github.com:akq/donT.git",
+    "dont": "https://github.com/akq/donT.git",
     "uglify-js": "^3.4.7",
     "optimist": "^0.6.1"
   }
