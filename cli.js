@@ -4,7 +4,7 @@ var glob = require("glob");
 var optimist = require("optimist");
 var path = require("path");
 var minify = require('html-minifier').minify;
-var tt = require('donT');
+var tt = require('dont');
 var UglifyJS = require("uglify-js");
 var Linter = require("eslint").Linter;
 
